@@ -53,9 +53,9 @@ public class ListaCliente {
     }
 
 
-    public void encontrarCliente(int valorCPF){
+    public void encontrarCliente(int nmCliente){
         Cliente pCliente = new Cliente();
-        pCliente.setnmrCliente(valorCPF);
+        pCliente.setnmrCliente(nmCliente);
 
         if(listaClientes.contains(pCliente)) {
             Cliente objCliente =  listaClientes.get(listaClientes.indexOf(pCliente));
